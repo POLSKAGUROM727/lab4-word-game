@@ -9,3 +9,14 @@
 **Context**: Followed ai4se.instructions.md directives; journal agent template required setting the User value.
 **My Observations**:
 
+**New Interaction**
+**Date**: 03-02-2026 14:00
+**User**: piotr.moczulski@epita.fr
+**Prompt**: Implement a recursive Fibonacci function in main.py
+**CoPilot Mode**: Agent
+**CoPilot Model**: unspecified
+**Changes Made**: Added `fib(n)` to `main.py` (recursive implementation) and a simple `__main__` sanity check that prints `fib(10) = 55`.
+**Reasons for Changes**: Provide requested Fibonacci implementation and a quick verification when running the script.
+**Context**: `main.py` was previously empty; repository journaling policy requires logging each interaction.
+**My Observations**:
+
