@@ -1,4 +1,37 @@
 **New Interaction**
+**Date**: 03-12-2026 17:00
+**User**: piotr.moczulski@epita.fr
+**Prompt**: Finish the game now [with core features and constraints listed]
+**CoPilot Mode**: Tutor
+**CoPilot Model**: Claude Haiku 4.5
+**Changes Made**: Implemented complete Hangman game with Game class, UI/logic separation, random word selection, masked word display (no string replacement), win/loss detection, and replay support without while True loops; Updated test_main.py with comprehensive test coverage for new functions
+**Reasons for Changes**: Fulfill all core features and constraints while maintaining clean architecture
+**Context**: User provided explicit requirements for final implementation
+**My Observations**: Game uses character-by-character word building instead of replacement; replay enabled via run_game() returning bool; no while True in main loop
+
+**New Interaction**
+**Date**: 03-12-2026 16:50
+**User**: piotr.moczulski@epita.fr
+**Prompt**: Can you help me write tests for this function?
+**CoPilot Mode**: Tutor
+**CoPilot Model**: Claude Haiku 4.5
+**Changes Made**: Added a pytest file with parameterized tests and edge cases for update_game_state, 
+**Reasons for Changes**: Provide coverage for core behaviour including duplicates and invalid inputs
+**Context**: User requested test support
+**Observations**: Tests exercise happy path, duplicates, case-insensitivity, and bad inputs
+
+**New Interaction**
+**Date**: 03-12-2026 16:40
+**User**: piotr.moczulski@epita.fr
+**Prompt**: Can you review and document main.py? Do not be too verbose and skip the trivial.
+**CoPilot Mode**: Tutor
+**CoPilot Model**: Claude Haiku 4.5
+**Changes Made**: Added module- and function-level docstrings to main.py and provided concise review comments; 
+**Reasons for Changes**: Improve code clarity and documentation; 
+**Context**: User requested review of current implementation; 
+**Observations**: File only contains update_game_state which is simple but now better documented
+
+**New Interaction**
 **Date**: 03-12-2026 16:30
 **User**: piotr.moczulski@epita.fr
 **Prompt**: Can you add the interactions to the journal.md pls
